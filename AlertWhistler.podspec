@@ -29,7 +29,8 @@ AlertWhistler is a control to show messages. This is shown on top status bar fra
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+  s.swift_version = '4.0'
+  
   s.source_files = 'AlertWhistler/Classes/**/*'
   
   # s.resource_bundles = {
