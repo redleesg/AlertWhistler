@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/tjsrlfl/Work/AlertWhistler/Example/build/Debug-iphonesimulator/AlertWhistler/AlertWhistler.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/tjsrlfl/Work/AlertWhistler/Example/build/Pods.build/Debug-iphonesimulator/AlertWhistler.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -1,0 +1,6 @@
+framework module AlertWhistler {
+  umbrella header "AlertWhistler-umbrella.h"
+
+  export *
+  module * { export * }
+}

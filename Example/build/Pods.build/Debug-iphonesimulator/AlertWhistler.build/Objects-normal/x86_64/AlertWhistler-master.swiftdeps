@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "68f3101696a0526a1b6b069af539b7e1"
+build_time: [1537198819, 926808000]
+inputs:
+  "/Users/tjsrlfl/Work/AlertWhistler/AlertWhistler/Classes/UIImageView.swift": [1537198819, 0]
+  "/Users/tjsrlfl/Work/AlertWhistler/AlertWhistler/Classes/UIColor.swift": [1537198161, 0]
+  "/Users/tjsrlfl/Work/AlertWhistler/AlertWhistler/Classes/WhistleAlert.swift": [1537198796, 0]

@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/tjsrlfl/Work/AlertWhistler/Example/build/Debug-iphonesimulator/AlertWhistler/AlertWhistler.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlertWhistler-Swift.h",
+          'external-contents': "/Users/tjsrlfl/Work/AlertWhistler/Example/build/Debug-iphonesimulator/AlertWhistler/AlertWhistler.framework/Headers/AlertWhistler-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlertWhistler-umbrella.h",
+          'external-contents': "/Users/tjsrlfl/Work/AlertWhistler/Example/Pods/Target Support Files/AlertWhistler/AlertWhistler-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/tjsrlfl/Work/AlertWhistler/Example/build/Debug-iphonesimulator/AlertWhistler/AlertWhistler.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/tjsrlfl/Work/AlertWhistler/Example/build/Pods.build/Debug-iphonesimulator/AlertWhistler.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/tjsrlfl/Work/AlertWhistler/Example/build/Debug-iphonesimulator/Pods_AlertWhistler_Example.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-AlertWhistler_Example-umbrella.h",
+          'external-contents': "/Users/tjsrlfl/Work/AlertWhistler/Example/Pods/Target Support Files/Pods-AlertWhistler_Example/Pods-AlertWhistler_Example-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_AlertWhistler_Example-Swift.h",
+          'external-contents': "/Users/tjsrlfl/Work/AlertWhistler/Example/build/Debug-iphonesimulator/Pods_AlertWhistler_Example.framework/Headers/Pods_AlertWhistler_Example-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/tjsrlfl/Work/AlertWhistler/Example/build/Debug-iphonesimulator/Pods_AlertWhistler_Example.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/tjsrlfl/Work/AlertWhistler/Example/build/Pods.build/Debug-iphonesimulator/Pods-AlertWhistler_Example.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

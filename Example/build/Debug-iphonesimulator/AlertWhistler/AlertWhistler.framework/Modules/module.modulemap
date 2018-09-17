@@ -1,0 +1,11 @@
+framework module AlertWhistler {
+  umbrella header "AlertWhistler-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AlertWhistler.Swift {
+    header "AlertWhistler-Swift.h"
+    requires objc
+}
