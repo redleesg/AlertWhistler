@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/AlertWhistler.svg?style=flat)](https://cocoapods.org/pods/AlertWhistler)
 [![Platform](https://img.shields.io/cocoapods/p/AlertWhistler.svg?style=flat)](https://cocoapods.org/pods/AlertWhistler)
 
-<img src="https://github.com/redleesg/AlertWhistler/tree/master/Demo/demo.gif">
+![](https://github.com/redleesg/AlertWhistler/tree/master/Demo/demo.gif)
 
 ## Example
 
