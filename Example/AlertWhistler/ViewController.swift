@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AlertWhistler
 
 class ViewController: UIViewController {
 
@@ -22,3 +23,14 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController {
+    
+    @IBAction func showOnStatusBar() {
+        AlertWhistler.whisper(text: "show text on status bar").show()
+    }
+    
+    @IBAction func showOnStatusAndNavigationBar() {
+        AlertWhistler.notice(text: "show text on status and navigation bar").show()
+    }
+    
+}

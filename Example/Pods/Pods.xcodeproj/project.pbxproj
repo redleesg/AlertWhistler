@@ -59,7 +59,7 @@
 		4F7BD484FB402A43887E35E364F04D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F444F5EA2EB93D7C5B122BB1CE27F42 /* Foundation.framework */; };
 		51BFE3EE13418178F96CE6CB0E64631E /* World+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = A19225C3D73CFBCA4B12272C9F3058FF /* World+DSL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5320A518D8B08A491A2C3430723DE502 /* NMBStringify.h in Headers */ = {isa = PBXBuildFile; fileRef = E43274BDDF946146643879824D00EC31 /* NMBStringify.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56AB75F90870DB07FA5472AD20B72312 /* WhistleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A51598D5D6F07563B04CBE44F97FAE /* WhistleAlert.swift */; };
+		56AB75F90870DB07FA5472AD20B72312 /* AlertWhistler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A51598D5D6F07563B04CBE44F97FAE /* AlertWhistler.swift */; };
 		5953723E71907467FB2D96E17C7FB7D0 /* AlertWhistler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B15FE8D5EEC8B463002A9F7373B639D2 /* AlertWhistler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59B6BBEF7F089C1788039D59B7E1AD89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F444F5EA2EB93D7C5B122BB1CE27F42 /* Foundation.framework */; };
 		59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD41EB748BF83453B0E36E7ACB021BF /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -408,7 +408,7 @@
 		DDFBAF22E15C973ED8D2968C738E484A /* Nimble-Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-Snapshots-dummy.m"; sourceTree = "<group>"; };
 		E286B9A3CA7FCE64AA267CBEF4682D51 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
 		E43274BDDF946146643879824D00EC31 /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
-		E5A51598D5D6F07563B04CBE44F97FAE /* WhistleAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhistleAlert.swift; path = AlertWhistler/Classes/WhistleAlert.swift; sourceTree = "<group>"; };
+		E5A51598D5D6F07563B04CBE44F97FAE /* AlertWhistler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertWhistler.swift; path = AlertWhistler/Classes/AlertWhistler.swift; sourceTree = "<group>"; };
 		E5F0D51611FC77F830A66707083F3D5C /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
 		E9886C16D199E02B88589CED67D85A51 /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
 		EA23EE0A80D318077C28121C5AD51D0D /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/NimbleObjectiveC/DSL.m; sourceTree = "<group>"; };
@@ -532,7 +532,7 @@
 		1E42CD32F345E6B72517CB2A49DD107D /* AlertWhistler */ = {
 			isa = PBXGroup;
 			children = (
-				E5A51598D5D6F07563B04CBE44F97FAE /* WhistleAlert.swift */,
+				E5A51598D5D6F07563B04CBE44F97FAE /* AlertWhistler.swift */,
 				8AD3E517214FFF0300D5E77F /* UIColor.swift */,
 				8AD3E519214FFF4D00D5E77F /* UIImageView.swift */,
 				A49B058F2A3A66D40C1AA12E724CAABB /* Pod */,
@@ -1322,7 +1322,7 @@
 				8AD3E51A214FFF4D00D5E77F /* UIImageView.swift in Sources */,
 				8F9B38EA253A355FE2FE3949397559AC /* AlertWhistler-dummy.m in Sources */,
 				8AD3E518214FFF0300D5E77F /* UIColor.swift in Sources */,
-				56AB75F90870DB07FA5472AD20B72312 /* WhistleAlert.swift in Sources */,
+				56AB75F90870DB07FA5472AD20B72312 /* AlertWhistler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

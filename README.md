@@ -5,9 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/AlertWhistler.svg?style=flat)](https://cocoapods.org/pods/AlertWhistler)
 [![Platform](https://img.shields.io/cocoapods/p/AlertWhistler.svg?style=flat)](https://cocoapods.org/pods/AlertWhistler)
 
+<img src="https://github.com/redleesg/AlertWhistler/tree/master/Demo/demo.gif">
+
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```ruby
+AlertWhistler.whisper(text: "text").show()
+AlertWhistler.notice(text: "text").show()
+```
 
 ## Requirements
 
@@ -22,7 +27,7 @@ pod 'AlertWhistler'
 
 ## Author
 
-redleesg, ttjsrlfl@gmail.com
+ttjsrlfl@gmail.com
 
 ## License
 
